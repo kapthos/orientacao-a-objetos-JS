@@ -1,22 +1,6 @@
-class Cliente { //criando classe Cliente (molde do objeto)
-    nome;
-    cpf; 
-}
-class ContaCorrente { //criando classe ContaCorrente (molde do objeto)
-    agencia;
-    conta;
-    saldo;
-    sacar(valor){                           //Nome do método e entre parenteses será o valor necessário para fazer a operação
-        if (correnteJuan.saldo >= valor){
-            correnteJuan.saldo -= valor
-        }
-    }
-    depositar(valor){                       //Criando método depositar dentro da classe para ser usada nas instancias.
-        if (valor > 0){
-            correnteJuan.saldo += valor;
-        }
-    }
-}
+import { Cliente } from "./Cliente.js";
+import { ContaCorrente } from "./ContaCorrente.js";
+
 const cliente1 = new Cliente(); //Criando o objeto cliente1 (instanciado) à partir do molde de cima
 cliente1.nome = "Juan";
 cliente1.cpf = 11122233350;

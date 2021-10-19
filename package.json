@@ -1,0 +1,20 @@
+{
+  "name": "orientacao-alura",
+  "version": "1.0.0",
+  "description": "Aula de OO Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapthos/orientacao-a-objetos-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kapthos/orientacao-a-objetos-JS/issues"
+  },
+  "homepage": "https://github.com/kapthos/orientacao-a-objetos-JS#readme"
+}
